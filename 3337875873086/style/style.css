@@ -393,7 +393,8 @@ body {
   font-family: inherit;
   font-weight: inherit;
   margin-top: 50px;
-  font-size: 22px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
   font-weight: 700;
   text-align: left;
   margin-bottom: 32px;
@@ -887,6 +888,9 @@ body {
   min-height: 160px;
   margin-bottom: 20px;
 }
+#es-vichy.es-vichy .es-compare__single-image--4 {
+  margin-top: 21px;
+}
 #es-vichy.es-vichy .es-compare__single-title {
   display: flex;
   justify-content: center;
@@ -968,7 +972,7 @@ body {
   font-family: inherit;
   font-weight: inherit;
   margin-top: -4px;
-  font-size: 12px;
+  font-size: 11.5px;
   min-width: none;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -983,6 +987,9 @@ body {
 }
 #es-vichy.es-vichy .es-compare__consistency-subtitle {
   min-height: 80px;
+}
+#es-vichy.es-vichy .es-compare__problem-subtitle {
+  min-height: 90px;
 }
 #es-vichy.es-vichy .es-compare__inner {
   display: flex;
