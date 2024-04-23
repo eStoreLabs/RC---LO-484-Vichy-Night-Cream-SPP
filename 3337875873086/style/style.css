@@ -162,6 +162,13 @@ body {
   min-height: 420px;
   padding-bottom: 30px;
 }
+#es-vichy.es-vichy .es-kv__img-sign {
+  position: absolute;
+  right: 3%;
+  bottom: 8%;
+  width: 46%;
+  max-width: 100%;
+}
 #es-vichy.es-vichy .es-kv__title {
   margin: 0;
   padding: 0;

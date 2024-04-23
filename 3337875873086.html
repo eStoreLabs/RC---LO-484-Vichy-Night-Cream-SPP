@@ -66,6 +66,11 @@
               BEZ PRZEBARWIEŃ<br />
               NOC PO NOCY<sup>2</sup>
             </p>
+            <img
+              class="es-kv__img-sign"
+              src="./3337875873086/images/sign.png"
+              alt=""
+            />
           </div>
         </div>
       </section>
@@ -899,29 +904,29 @@
   <script src="./3337875873086/scripts/slick-slider.js"></script>
   <script src="./3337875873086/scripts/script.js"></script>
   <script>
-    // require(['jquery', 'slick'], function ($) {
-    $(document).ready(function () {
-      $('.es-slick-carousel').slick({
-        infinite: false,
-        slidesToShow: 1,
-        centerMode: true,
-        cssEase: 'linear',
-        prevArrow: '.slick-button-prev',
-        nextArrow: '.slick-button-next',
-        variableWidth: true,
+    require(['jquery', 'slick'], function ($) {
+      $(document).ready(function () {
+        $('.es-slick-carousel').slick({
+          infinite: false,
+          slidesToShow: 1,
+          centerMode: true,
+          cssEase: 'linear',
+          prevArrow: '.slick-button-prev',
+          nextArrow: '.slick-button-next',
+          variableWidth: true,
+        });
       });
-    });
 
-    $(document).ready(function () {
-      $('.es-slick-carousel-2').slick({
-        dots: true,
-        infinite: true,
-        prevArrow: '.slick-button-2-prev',
-        nextArrow: '.slick-button-2-next',
-        appendDots: '.slick-pagination-2',
-        adaptiveHeight: true,
+      $(document).ready(function () {
+        $('.es-slick-carousel-2').slick({
+          dots: true,
+          infinite: true,
+          prevArrow: '.slick-button-2-prev',
+          nextArrow: '.slick-button-2-next',
+          appendDots: '.slick-pagination-2',
+          adaptiveHeight: true,
+        });
       });
     });
-    // });
   </script>
 </html>
