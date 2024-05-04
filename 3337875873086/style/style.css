@@ -12,6 +12,8 @@ body {
   max-width: 731px;
   margin: 0 auto;
   padding: 0;
+  padding-left: 30px;
+  padding-right: 30px;
   overflow: hidden;
   color: #2b2a29;
   background-color: #fff;
@@ -1091,6 +1093,14 @@ body {
   #es-vichy.es-vichy .es-dermatologits__image {
     display: none;
   }
+  #es-vichy.es-vichy .es-cross__link {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    min-width: auto;
+    width: 170px;
+    font-size: 10px;
+    border-radius: 30px;
+  }
 }
 @media screen and (min-width: 560px) {
   #es-vichy.es-vichy .es-kv {
@@ -1264,6 +1274,7 @@ body {
     margin-left: 40%;
   }
 }
+
 @media screen and (min-width: 768px) {
   #es-vichy.es-vichy .es-title {
     margin-bottom: 50px;
@@ -1385,8 +1396,6 @@ body {
     width: 50%;
     text-align: left;
   }
-}
-@media screen and (min-width: 860px) {
   #es-vichy.es-vichy .es-cross__container {
     justify-content: space-between;
   }
@@ -1428,6 +1437,8 @@ body {
     left: 18%;
     top: -20px;
   }
+}
+@media screen and (min-width: 860px) {
   #es-vichy.es-vichy .es-icons__title {
     font-size: 12px;
   }
@@ -1436,7 +1447,7 @@ body {
     justify-content: space-around;
   }
   #es-vichy.es-vichy .es-compare__single {
-    min-width: 190px;
+    min-width: 125px;
   }
   #es-vichy.es-vichy .es-compare__single-subtitle {
     font-size: 11px;
@@ -1499,14 +1510,6 @@ body {
   }
   #es-vichy.es-vichy .es-cross__single--middle {
     margin-left: -10px;
-  }
-  #es-vichy.es-vichy .es-cross__link {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    min-width: auto;
-    width: 170px;
-    font-size: 10px;
-    border-radius: 30px;
   }
   #es-vichy.es-vichy .es-compare__mobile-wrapper {
     flex-wrap: nowrap;
